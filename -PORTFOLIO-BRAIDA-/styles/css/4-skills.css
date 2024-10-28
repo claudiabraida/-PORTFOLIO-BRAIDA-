@@ -1,0 +1,104 @@
+/* *******SECTION SKILLS******* */
+main .container-skills{
+  background-color: #cd42e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* */text-align: center;
+}
+
+.container-skills #title-skills{
+  border: 1px solid #8e2b2b;
+}
+
+.container-skills .paragraph-skills{
+  border: 1px solid #3b3b18;
+}
+
+/* .......BOX SKILLS LOGOS....... */
+.container-skills .box-skills{
+  background-color: #2bf55a;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container-skills .box-skills figure:nth-child(n){
+  /* border: 1px solid red; */
+  width: 25%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 7px 7px;
+}
+
+.container-skills .box-skills .skill-logo-html{
+  background: no-repeat 50% 10% /contain url(./images-logos/logo-html-5-color.png);
+  /* border: 1px solid red;
+  width: 30%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; */
+}
+
+/* SIMPLIFICACIÓN DE CÓDIGOS, REDUCCION DE ELEMENTOS EN HTML
+   Se omiten imágenes en html y se las coloca desde la propiedad background-image 
+   Se utiliza shorthand en la propiedad background-image para reducir código
+   Alo largo del html existen elementos que se repiten y se encuentran dentro
+   de secciones diferentes, para dar estilos a ciertos eleentos sim que afecten
+   al resto; se acude a la pseudo-clase nth-child() para especificar estilos
+   a elementos de una seccion específica.  
+*/
+
+.container-skills .box-skills .name-skill-logo{
+  /* background-color: red; */
+  color: #070806;
+  font-size: 12px;
+}
+/* 
+.container-skills .box-skills
+.wrapper-skill-logo-1,
+.wrapper-skill-logo-2,
+.wrapper-skill-logo-3,
+.wrapper-skill-logo-4,
+.wrapper-skill-logo-5,
+.wrapper-skill-logo-6 {
+background-color: #cb1b12;
+width: 30%;
+height: 80px;
+} */
+
+
+
+
+/* .......LOGOS IMG....... */
+/* .wrapper-skill-logo .skill-logo .logo-html-5{
+
+}
+
+.wrapper-skill-logo .skill-logo .logo-css-3{
+
+}
+
+.wrapper-skill-logo .skill-logo .logo-js{
+
+}
+
+.wrapper-skill-logo .skill-logo .logo-react{
+
+}
+
+.wrapper-skill-logo .skill-logo .logo-sass{
+
+}
+
+.wrapper-skill-logo .skill-logo .logo-git{
+
+}*/
+
